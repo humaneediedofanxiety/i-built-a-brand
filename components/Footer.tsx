@@ -58,7 +58,7 @@ export default function Footer() {
               saysayeem.pr@gmail.com
             </Link>
             <p className="mt-2 text-sm text-gray-300">
-              You can even annoy me it's aight, feel free.
+              You can even annoy me it&#39;s aight, feel free.
             </p>
           </div>
         </div>

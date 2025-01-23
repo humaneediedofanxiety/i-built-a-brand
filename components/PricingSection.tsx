@@ -5,7 +5,7 @@ export default function PricingSection() {
     <div className="bg-black text-white py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <p className="text-sm uppercase tracking-wider mb-4">Don't like how that works?</p>
+          <p className="text-sm uppercase tracking-wider mb-4">Don&#39;t like how that works?</p>
           <h2 className="text-4xl sm:text-5xl font-bold">We have paid options too.</h2>
         </div>
 
