@@ -13,3 +13,7 @@ body {
   background: rgb(var(--background-start-rgb));
 }
 
+html {
+  scroll-behavior: smooth;
+}
+

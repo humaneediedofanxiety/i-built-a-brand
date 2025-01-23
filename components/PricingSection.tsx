@@ -2,7 +2,7 @@ import { Zap } from "lucide-react"
 
 export default function PricingSection() {
   return (
-    <div className="bg-black text-white py-24">
+    <div className="bg-black text-white py-24" id="pricing">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-wider mb-4">Don&#39;t like how that works?</p>
@@ -121,7 +121,7 @@ export default function PricingSection() {
         <div className="text-center mt-8">
           <p className="text-sm text-gray-400">
           </p>
-          <a href="#" className="text-sm underline">
+          <a href="#" className="underline">
             Get a sample of our work for free
           </a>
         </div>

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h2 className="text-2xl font-bold mb-4">Labovate</h2>
+            <h2 className="text-3xl font-bold mb-4">Labovate</h2>
             <p className="text-sm text-gray-300">By a bunch of my persona</p>
           </div>
 
@@ -54,7 +54,7 @@ export default function Footer() {
 
           <div>
             <h3 className="font-semibold mb-4">Any questions</h3>
-            <Link href="mailto:saysayeem.pr@gmail.com" className="text-2xl font-semibold hover:text-gray-200">
+            <Link href="mailto:saysayeem.pr@gmail.com" className="text-3xl break-words font-semibold hover:text-gray-200">
               saysayeem.pr@gmail.com
             </Link>
             <p className="mt-2 text-sm text-gray-300">

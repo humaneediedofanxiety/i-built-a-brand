@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react"
 
 export default function HowItWorks() {
   return (
-    <div className="bg-black text-white py-24">
+    <div className="bg-black text-white py-24" id="how-it-works">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-wider mb-4">HOW IT WORKS</p>

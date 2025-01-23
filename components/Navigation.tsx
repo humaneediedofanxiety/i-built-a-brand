@@ -7,23 +7,23 @@ export default function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
 
+          <Link href="#home">
+            <div className="flex items-center space-x-2">
+              <Zap className="h-5 w-5 text-white font-bold" />
+              <span className="text-white font-medium text-lg">Labovate</span>
+            </div></Link>
 
-          <div className="flex items-center space-x-2">
-            <Zap className="h-5 w-5 text-white font-bold" />
-            <span className="text-white font-medium text-lg">Labovate</span>
-          </div>
-
-          <div className="flex items-center space-x-8">
-            <Link href="#" className="text-white hover:text-gray-300">
+          <div className="items-center space-x-8 hidden sm:flex">
+            <Link href="#how-it-works" className="text-white hover:text-gray-300">
               How it Works
             </Link>
-            <Link href="#" className="text-white hover:text-gray-300">
+            <Link href="#pricing" className="text-white hover:text-gray-300">
               Pricing
             </Link>
-            <Link href="#" className="text-white hover:text-gray-300">
+            <Link href="#featured" className="text-white hover:text-gray-300">
               Work
             </Link>
-            <Link href="#" className="text-white hover:text-gray-300">
+            <Link href="#FAQ" className="text-white hover:text-gray-300">
               FAQ
             </Link>
           </div>
