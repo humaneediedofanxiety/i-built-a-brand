@@ -13,7 +13,7 @@ const formSchema = z.object({
   company: z.string().optional(),
   phone: z.string().min(10, "Please enter a valid phone number"),
   projectType: z.enum(["collaboration", "paid-service", "other"]),
-  budget: z.enum(["<5k", "5k-10k", "10k-20k", "20k+"]),
+  budget: z.enum(["<500", "500-2500", "2500-5k", "5k+"]),
   message: z.string().min(10, "Message must be at least 10 characters"),
   privacy: z.boolean().refine((val) => val === true, {
     message: "You must trust me bro I am not gonna hack you.",
@@ -186,9 +186,9 @@ export default function ContactForm() {
                 id="budget"
                 className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-white/20 transition-colors"
               >
-                <option value="<0.5k">Less than $500</option>
-                <option value=".5k-2.5k">$500 - $2500</option>
-                <option value="2.5k-5k">$2500 - $5,000</option>
+                <option value="<500">Less than $500</option>
+                <option value="500-2500">$500 - $2500</option>
+                <option value="2500-5k">$2500 - $5,000</option>
                 <option value="5k+">$5,000+</option>
               </select>
             </div>
