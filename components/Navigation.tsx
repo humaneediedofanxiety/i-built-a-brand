@@ -35,9 +35,9 @@ export default function Navigation() {
 
 
           <div className="flex items-center">
-            <button className="bg-black text-white border border-gray-700 rounded-full px-4 py-2 text-sm">
+            <Link className="bg-black text-white border border-gray-700 rounded-full px-4 py-2 text-sm" href="/contact">
               Press <span className="bg-white text-black px-1 rounded">B</span> to book a call
-            </button>
+            </Link>
           </div>
         </div>
       </div>

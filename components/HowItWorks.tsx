@@ -7,7 +7,7 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <p className="text-sm uppercase tracking-wider mb-4">HOW IT WORKS</p>
           <h2 className="text-5xl sm:text-6xl font-bold mb-4 flex items-center justify-center gap-4">
-            How the actual fuck bro? <span className="text-4xl"></span>
+            How to get started?<span className="text-4xl"></span>
           </h2>
           <div className="w-24 h-1 bg-gray-700 mx-auto mt-4"></div>
         </div>

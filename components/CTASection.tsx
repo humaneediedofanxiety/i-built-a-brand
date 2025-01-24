@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function CTASection() {
   return (
     <div className="relative overflow-hidden bg-black text-white py-24">
@@ -7,9 +8,9 @@ export default function CTASection() {
           <br />
           now you gotta click the button.
         </h2>
-        <button className="bg-white text-black px-8 py-4 rounded-full text-lg font-medium w-full max-w-md">
+        <Link className="bg-white text-black px-32 py-4 rounded-full text-lg font-medium w-full max-w-md" href="/contact">
           Click the damn button
-        </button>
+        </Link>
         <p className="mt-4 text-gray-400 text-sm">Be quick! Jack be nimble, Jack be quick. </p>
       </div>
     </div>

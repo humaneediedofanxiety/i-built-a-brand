@@ -73,8 +73,8 @@ export default function ContactForm() {
         </h1>
         <p className="text-gray-400">
           Or just reach out manually to{" "}
-          <Link href="mailto:hello@example.com" className="text-white hover:text-gray-300">
-            hello@example.com
+          <Link href="mailto:saysayeem.pr@gmail.com" className="text-white hover:text-gray-300">
+            saysayeem.pr@gmail.com
           </Link>
         </p>
       </div>
@@ -186,10 +186,10 @@ export default function ContactForm() {
                 id="budget"
                 className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg focus:outline-none focus:ring-2 focus:ring-white/20 transition-colors"
               >
-                <option value="<5k">Less than $5,000</option>
-                <option value="5k-10k">$5,000 - $10,000</option>
-                <option value="10k-20k">$10,000 - $20,000</option>
-                <option value="20k+">$20,000+</option>
+                <option value="<0.5k">Less than $500</option>
+                <option value=".5k-2.5k">$500 - $2500</option>
+                <option value="2.5k-5k">$2500 - $5,000</option>
+                <option value="5k+">$5,000+</option>
               </select>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function ContactForm() {
           <h3 className="font-medium mb-2">Email Us</h3>
           <p className="text-sm text-gray-400 mb-4">Get in touch via email.</p>
           <Link
-            href="mailto:hello@example.com"
+            href="mailto:saysayeem.pr@gmail.com"
             className="inline-flex items-center text-sm text-white hover:text-gray-300"
           >
             Send Email <ArrowRight className="ml-2 w-4 h-4" />
