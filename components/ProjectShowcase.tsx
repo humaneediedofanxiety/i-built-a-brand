@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { ArrowUpRight } from "lucide-react"
+import Link from "next/link"
 
 export default function ProjectShowcase() {
   return (
