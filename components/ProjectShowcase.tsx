@@ -27,9 +27,9 @@ export default function ProjectShowcase() {
               </div>
               <div className="absolute inset-x-0 top-32 text-center">
                 <h3 className="text-4xl font-semibold mb-4">Messenger</h3>
-                <button className="bg-black/20 backdrop-blur-sm px-6 py-2 rounded-full text-sm font-medium inline-flex items-center gap-2 hover:bg-black/30 transition-colors">
+                <Link href="https://old-chat-app-revised-ui.vercel.app/" className="bg-black/20 backdrop-blur-sm px-6 py-2 rounded-full text-sm font-medium inline-flex items-center gap-2 hover:bg-black/30 transition-colors">
                   Live preview <ArrowUpRight className="w-4 h-4" />
-                </button>
+                </Link>
               </div>
 
             </div>
