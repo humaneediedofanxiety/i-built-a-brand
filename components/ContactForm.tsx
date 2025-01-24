@@ -16,7 +16,7 @@ const formSchema = z.object({
   budget: z.enum(["<5k", "5k-10k", "10k-20k", "20k+"]),
   message: z.string().min(10, "Message must be at least 10 characters"),
   privacy: z.boolean().refine((val) => val === true, {
-    message: "You must accept the privacy policy",
+    message: "You must trust me bro I am not gonna hack you.",
   }),
 })
 
@@ -221,10 +221,7 @@ export default function ContactForm() {
               className="h-4 w-4 rounded border-gray-300 text-white focus:ring-white/20"
             />
             <label htmlFor="privacy" className="text-sm text-gray-400">
-              I hereby agree to the{" "}
-              <Link href="/privacy" className="text-white hover:text-gray-300 underline">
-                Privacy Policy
-              </Link>
+              Do you trust me?
             </label>
           </div>
           {errors.privacy && <p className="text-sm text-red-500">{errors.privacy.message}</p>}

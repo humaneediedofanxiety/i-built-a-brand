@@ -46,7 +46,7 @@ export default function HowItWorks() {
             <div className="text-8xl font-bold text-gray-800 mb-6">3</div>
             <h3 className="text-2xl font-bold mb-4">Finalize & Build</h3>
             <p className="text-gray-400">
-              Once everything goes smoothly, we can start working for real and get our app live.
+              Once everything goes smoothly, we can start working for real and get your app live.
             </p>
           </div>
         </div>
